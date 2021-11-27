@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 
 export default function Header({pick,number}) {
+    console.log("vercel test");
     return (
         <div className='header-container'>
            <p onClick={pick} >Queer<span className='logo'>Shop</span></p>
