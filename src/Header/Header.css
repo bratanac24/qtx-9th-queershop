@@ -1,0 +1,45 @@
+.header-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10rem;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem ;
+    border-bottom: 1px solid #cacaca;
+}
+.cart span{
+    display: block;
+    align-self: flex-end;
+    font-size: 2rem;
+    margin: 0 1rem 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(to left,#a163f5,#e8b6da,#e8b6da);
+    display: grid;
+    color: white;
+    place-items: center;
+}
+
+.header-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font: 300 3rem sans-serif;
+    cursor: pointer;
+}
+
+.logo{
+    color: #a163f5;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
